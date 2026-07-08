@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1204332628.svg)](https://doi.org/10.5281/zenodo.21267702)
 # Colorado Pikeminnow Sex Identification
 Scripts used for conducting genome resequencing and GWAS to identify sex-determining loci in the Colorado Pikeminnow genome
 
