@@ -77,12 +77,12 @@ segments(x0=9830908, y0=29.8, x1=9834000, y1=29.8, col="#5dc862", lty=1, lwd=3)
 # label sox10
 text(x = (9820000 + 9823265)/2, 
      y = 29.8, 
-     labels = "SOX10 →", 
+     labels = expression(italic("sox10 →")), 
      pos = 1) # pos=1 places text below the point
 # label POLR2F
 text(x = (9830908 + 9834000)/2, 
      y = 29.8, 
-     labels = "← POLR2F", 
+     labels = expression(italic("← polr2f")), 
      pos = 1) # pos=1 places text below the point
 dev.off()
 
