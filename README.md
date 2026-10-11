@@ -20,6 +20,9 @@ I used the following commands to create conda environments used in these scripts
 # conda command to create wgs environment
 conda create -n wgs -c conda-forge -c bioconda trim-galore=0.6.10 bowtie2=2.5.4 samtools=1.22 bcftools=1.22 vcftools=0.1.17 picard=3.4.0 freebayes=1.3.10 pandas plink bedtools shapeit5 vsearch
 
+# conda command to create shapeit4 environment
+conda create -n shapeit4 -c conda-forge -c bioconda samtools bcftools vsearch shapeit4=4.2.2
+
 # conda command to install whatshap
 conda create -n whatshap -c conda-forge -c bioconda whatshap=2.8
 
